@@ -1,0 +1,96 @@
+	* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+	h1 {
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		font-size: 175%;
+	}
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		position: relative;
+
+	}
+	div {
+		border: 1px solid black;
+		margin: 1%;
+		background-color: rgb(70 130 180);
+		position: relative;
+		float: left;
+	}
+	.Menu{
+		width: 31%;
+	}
+	.Out {
+		padding: 8px;
+	}
+	.Inside {
+		border: 1px solid black;
+		text-align: center;
+		width: 35%;
+		background-color: rgb(255, 222, 173);
+		top: 0;
+		left : 65%;
+		font-size: 125%;
+	}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#Menu1{
+		width: 48%;
+	}
+	#Menu2{
+		width: 48%;
+	}
+	#Menu3{
+		width: 98%;
+	}
+	.Out {
+		padding: 8px;
+		position: relative;
+		bottom: 0;
+
+	}
+	.Inside {
+		border: 1px solid black;
+		text-align: center;
+		position: relative;
+		width: 35%;
+		background-color: rgb(255, 222, 173);
+		top: 0;
+		left : 65%;
+		font-size: 125%;
+	}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+	#Menu1{
+		width: 98%;
+	}
+	#Menu2{
+		width: 98%;
+	}
+	#Menu3{
+		width: 98%;
+	}
+	.Out {
+		padding: 8px;
+		position: relative;
+		bottom: 0;
+	}
+	.Inside {
+		border: 1px solid black;
+		text-align: center;
+		position: relative;
+		width: 35%;
+		background-color: rgb(255, 222, 173);
+		top: 0;
+		left : 65%;
+		font-size: 125%;
+	}
+}
